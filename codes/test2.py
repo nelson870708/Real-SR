@@ -61,9 +61,9 @@ for test_loader in test_loaders:
             model.back_projection()
         # visuals = model.get_current_visuals(need_GT=need_GT)
 
-        sr_img = util.tensor2img(visuals['SR'])  # uint8
+        # sr_img = util.tensor2img(visuals['SR'])  # uint8
 
-        # save images
+        # # save images
         # suffix = opt['suffix']
         # if suffix:
         #     save_img_path = osp.join(dataset_dir, img_name + suffix + '.png')
